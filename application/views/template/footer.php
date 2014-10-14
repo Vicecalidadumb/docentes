@@ -1,20 +1,76 @@
 </div>
-
-<!-- BEGIN FOOTER -->
-<div class="page-footer">
-    <div class="page-footer-inner">
-        <?php echo date("Y") ?> &copy; Universidad Manuela Beltr&aacute;n - Vicerrector&iacute;a de Calidad.
-    </div>
-    <div class="page-footer-tools">
-        <span class="go-top">
-            <i class="fa fa-angle-up"></i>
-        </span>
+<!-- END PAGE CONTAINER -->
+<!-- BEGIN PRE-FOOTER -->
+<div class="page-prefooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
+                <h2>About</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam dolore.
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs12 footer-block">
+                <h2>Subscribe Email</h2>
+                <div class="subscribe-form">
+                    <form action="#">
+                        <div class="input-group">
+                            <input type="text" placeholder="mail@email.com" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit">Submit</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
+                <h2>Follow Us On</h2>
+                <ul class="social-icons">
+                    <li>
+                        <a href="#" data-original-title="rss" class="rss"></a>
+                    </li>
+                    <li>
+                        <a href="#" data-original-title="facebook" class="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#" data-original-title="twitter" class="twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#" data-original-title="googleplus" class="googleplus"></a>
+                    </li>
+                    <li>
+                        <a href="#" data-original-title="linkedin" class="linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#" data-original-title="youtube" class="youtube"></a>
+                    </li>
+                    <li>
+                        <a href="#" data-original-title="vimeo" class="vimeo"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-block">
+                <h2>Contacts</h2>
+                <address class="margin-bottom-40">
+                    Phone: 800 123 3456<br>
+                    Email: <a href="mailto:info@metronic.com">info@metronic.com</a>
+                </address>
+            </div>
+        </div>
     </div>
 </div>
+<!-- END PRE-FOOTER -->
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+    <div class="container">
+        2014 &copy; Metronic. All Rights Reserved.
+    </div>
+</div>
+<div class="scroll-to-top">
+    <i class="icon-arrow-up"></i>
+</div>
 <!-- END FOOTER -->
-
-
-<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
 <script src="../../assets/global/plugins/respond.min.js"></script>
@@ -30,115 +86,36 @@
 <script src="<?php echo base_url('/assets/global/plugins/jquery.blockui.min.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jquery.cokie.min.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/uniform/jquery.uniform.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js'); ?>" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->
-<!--<script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js'); ?>" type="text/javascript"></script>-->
-<script src="<?php echo base_url('/assets/global/plugins/flot/jquery.flot.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/flot/jquery.flot.resize.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/flot/jquery.flot.categories.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/jquery.pulsate.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/bootstrap-daterangepicker/moment.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.js'); ?>" type="text/javascript"></script>
-
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js'); ?>"></script>
-<script src="<?php echo base_url('/assets/admin/pages/scripts/components-pickers.js'); ?>"></script>
-
-
+<script src="<?php echo base_url('/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js'); ?>" type="text/javascript"></script>
 <!-- IMPORTANT! fullcalendar depends on jquery-ui-1.10.3.custom.min.js for drag & drop support -->
-<script src="<?php echo base_url('/assets/global/plugins/fullcalendar/fullcalendar/fullcalendar.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('/assets/global/plugins/morris/morris.min.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('/assets/global/plugins/morris/raphael-min.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/global/plugins/jquery.sparkline.min.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/global/plugins/gritter/js/jquery.gritter.js'); ?>" type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="<?php echo base_url('/assets/global/scripts/metronic.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/admin/layout/scripts/layout.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/admin/layout/scripts/quick-sidebar.js'); ?>" type="text/javascript"></script>
-<script src="<?php echo base_url('/assets/admin/pages/scripts/index.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('/assets/admin/layout3/scripts/layout.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('/assets/admin/layout3/scripts/demo.js'); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url('/assets/admin/pages/scripts/index3.js'); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url('/assets/admin/pages/scripts/tasks.js'); ?>" type="text/javascript"></script>
-
-
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/jquery-validation/js/jquery.validate.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/jquery-validation/js/messages_es.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/jquery-validation/js/additional-methods.min.js'); ?>"></script>
-
-
-<script src="<?php echo base_url('/assets/admin/pages/scripts/components-dropdowns.js'); ?>"></script>
-
-<script src="<?php echo base_url('/assets/global/plugins/bootstrap-select/bootstrap-select.min.js'); ?>"></script>
-<script src="<?php echo base_url('/assets/global/plugins/select2/select2.min.js'); ?>"></script>
-<script src="<?php echo base_url('/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js'); ?>"></script>
-
-
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js'); ?>"></script>
-
-
-<script src="<?php echo base_url('/assets/global/scripts/datatable.js'); ?>"></script>
-<script type="text/javascript" src="<?php echo base_url('/assets/admin/pages/scripts/table-ajax.js'); ?>"></script>
-
-
-
-<script type="text/javascript" src="<?php echo base_url('/js/script_umb.js'); ?>"></script>
-
-
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
     jQuery(document).ready(function() {
         Metronic.init(); // init metronic core componets
         Layout.init(); // init layout
-        TableAjax.init();
-        ComponentsPickers.init();
-        QuickSidebar.init() // init quick sidebar
-        Index.init();
-        Index.initDashboardDaterange();
-        //Index.initJQVMAP(); // init index page's custom scripts
-        Index.initCalendar(); // init index page's custom scripts
-        //Index.initCharts(); // init index page's custom scripts
-        //Index.initChat();
-        //TableAdvanced.init();
-
-        //Index.initMiniCharts();
-        Index.initIntro();
-        Tasks.initDashboardWidget();
-        ComponentsDropdowns.init();
-        FormValidation.init();
-
+        Demo.init(); // init demo(theme settings page)
+        Index.init(); // init index page
+        Tasks.initDashboardWidget(); // init tash dashboard widget
     });
 </script>
-
-<script>
-    /*
-     var ajax_datatable;
-     
-     $(document).ready(function() {
-     ajax_datatable = $('table#datatable_ajax').dataTable({
-     "bServerSide": true,
-     "sAjaxSource": "<?php //echo base_url();  ?>profile/ajax_datatable",
-     "fnServerData": function(sSource,aoData,fnCallback)
-     {
-     aoData.push({name: "field2", value: $('#field2').val() });
-     $.ajax({
-     "dataType": 'json', 
-     "type": "POST", 
-     "url": sSource, 
-     "data": aoData, 
-     "success": fnCallback
-     });
-     }
-     });
-     });*/
-</script> 
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->

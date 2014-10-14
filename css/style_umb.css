@@ -1,3 +1,8 @@
 .page-header.navbar .page-logo .logo-default {
     margin: 8px 0 0 0 !important;
 }
+
+
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 22.5px 0 0 0 !important;
+}
